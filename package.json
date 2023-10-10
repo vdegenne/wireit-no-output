@@ -1,0 +1,26 @@
+{
+	"name": "test",
+	"scripts": {
+		"build": "wireit"
+	},
+	"wireit": {
+		"log-something": {
+			"command": "node dep-script.cjs",
+			"files": [
+				"dep-script.cjs"
+			]
+		},
+		"build": {
+			"command": "node main-script.cjs",
+			"dependencies": [
+				"log-something"
+			],
+			"env": {
+				"WIREIT_LOGGER": "simple"
+			}
+		}
+	},
+	"devDependencies": {
+		"wireit": "^0.14.0"
+	}
+}

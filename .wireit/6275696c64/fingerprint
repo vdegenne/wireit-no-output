@@ -1,0 +1,1 @@
+{"fullyTracked":false,"platform":"linux","arch":"x64","nodeVersion":"v20.8.0","command":"node main-script.cjs","extraArgs":[],"clean":true,"files":{},"output":[],"dependencies":{"[\"/workspaces/wireit-no-output\",\"log-something\"]":"2dfeea03656d84188a3c4ae18297b118545c347926d85323c9e41f32517792ba"},"env":{"WIREIT_LOGGER":"simple"}}
